@@ -12,7 +12,7 @@ int main(void)
 {
 int e, f, g, h;
 
-for (e = 0; e < 1000; i++)
+for (e = 0; e < 1000; e++)
 {
 f = e / 100; /* hundreds */
 g = (e / 10) % 10; /* tens */
