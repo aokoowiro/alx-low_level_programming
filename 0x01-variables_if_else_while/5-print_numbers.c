@@ -14,7 +14,7 @@ int f;
 
 do {
 printf("%d", f);
-x++;
+f++;
 } while (f <= 9);
 putchar('\n');
 return (0);
