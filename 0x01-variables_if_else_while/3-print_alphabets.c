@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: Print all letters of the alphabets using putchar() in lower and upper cases
+ * Description: Print all letters of the alphabets using putchar() 
+ * In lower and upper cases
  *
  * Return: program returns 0 (Success)
  */
