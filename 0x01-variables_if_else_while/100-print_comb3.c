@@ -19,7 +19,7 @@ a  = 0;
 while (a < 100)
 {
 b = a / 10; /* tens */
-b = a % 10; /* unit */
+c = a % 10; /* unit */
 
 if (b < c)
 {
