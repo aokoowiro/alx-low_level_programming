@@ -6,21 +6,22 @@
  * Return: Always 0.
  */
 
-jack_bauer(void)
+int jack_bauer(void)
 {
 int hrs;
 int mins;
 
-for (hr = 0; hr < 24; hr++)
+for (hrs = 0; hrs < 24; hrs++)
 {
-for (min = 0; min < 60; min++)
+for (mins = 0; min < 60; mins++)
 {
 _putchar((hr / 10) + '0');
 _putchar((hr % 10) + '0');
 _putchar(':');
-_putchar((min / 10) + '0');
-_putchar((min % 10) + '0');
+_putchar((mins / 10) + '0');
+_putchar((mins % 10) + '0');
 _putchar('\n');
 }
 }
+return (0)
 }
