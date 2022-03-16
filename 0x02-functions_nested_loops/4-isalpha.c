@@ -3,7 +3,7 @@
 /**
  * _isalpha - alphabet case checker. Returns 1 if true and 0 if false
  * Return: Returns value
- * @c - parameter
+ * int c - parameter integer
  */
 
 int _isalpha(int c)
