@@ -3,6 +3,8 @@
 /**
  * add - adds two integers
  * Return: returns the added value
+ * @a -parameter 1
+ * @b -parameter 2
  */
 
 int add(int a, int b)
