@@ -10,5 +10,14 @@
 
 int _abs(int)
 {
-  return (unsigned int);
+int i
+i = _abs(-1);
+printf("%d\n", i);
+i = _abs(0);
+printf("%d\n", i);
+i = _abs(1);
+printf("%d\n", i);
+i = _abs(-98);
+printf("%d\n", i);
+ return (0)
 }
