@@ -8,16 +8,8 @@
  * Return: returns 0
  */
 
-int _abs(int)
+int _abs(int i)
 {
 int i
-i = _abs(-1);
-printf("%d\n", i);
-i = _abs(0);
-printf("%d\n", i);
-i = _abs(1);
-printf("%d\n", i);
-i = _abs(-98);
-printf("%d\n", i);
- return (0)
+return (0)
 }
