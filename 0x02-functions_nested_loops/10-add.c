@@ -5,10 +5,10 @@
  * Return: returns the added value
  */
 
-int add(int i, int j)
+int add(int a, int b)
 {
-  int sum;
+int sum;
 
-  sum = i + j;
-  return (sum);
+sum = a + b;
+return (sum);
 }
