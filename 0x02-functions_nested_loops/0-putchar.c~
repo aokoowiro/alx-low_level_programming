@@ -1,0 +1,12 @@
+#include "main.h"
+
+/*
+ * main - print _putchar and new line
+ * Return: zero (Success)
+ */
+
+int main(void)
+{
+_putchar('\n');
+return (0);
+}
