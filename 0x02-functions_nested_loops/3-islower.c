@@ -2,15 +2,12 @@
 
 /**
  * _islower -  lowercase checker. Returns 1 if true and 0 if false
- *
- * @c: integer parameter c
- *
  * Return: returns value
  */
 
 int _islower(int c)
 {
-char ch;
+char c;
 int value;
 
 if (c >= 'a' && c <= 'z')
