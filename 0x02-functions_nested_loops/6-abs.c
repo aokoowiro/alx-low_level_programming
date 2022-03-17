@@ -10,6 +10,12 @@
 
 int _abs(int i)
 {
-int i
-return (0)
+if (i >= 0)
+{
+return (i);
+}
+else
+{
+return (i * -1);
+}
 }
