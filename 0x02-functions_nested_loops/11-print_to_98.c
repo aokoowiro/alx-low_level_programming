@@ -31,4 +31,5 @@ n++;
 }
 printf("\n");
 }
+return (0);
 }
