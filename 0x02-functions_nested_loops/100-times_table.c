@@ -6,7 +6,7 @@
 *
 * Return: no return
 */
-void print_times_table(int n)
+int print_times_table(int n)
 {
 int a, b, op;
 
@@ -40,6 +40,7 @@ _putchar((op % 10) + 48);
 }
 }
 _putchar('\n');
+}
 }
 }
 }
