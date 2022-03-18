@@ -1,12 +1,19 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_numbers - prints numbers from 0 to 9
+ * @void: no arguments
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
+
+void print_numbers(void)
 {
-print_numbers();
-return (0);
+int c;
+
+for (c = 48; c <= 57; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
 }
