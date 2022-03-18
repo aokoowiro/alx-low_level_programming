@@ -1,29 +1,37 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - flesh of the FizzBuzz functionality
- * @void: number of times # is printed
+ * main - prints the numbers from 1 to 100
+ * but for multiples of 3 it prints fizz.
  *
- * Return: 0
+ * Return: 0.
  */
 
 int main(void)
 {
-int i;
+int k;
 
-for (i = 1; i < 100; i++)
+k = 1;
+printf("%d", k);
+for (k = 2; k <= 100; k++)
 {
-if (i % 15 == 0)
+if ((k % 3 == 0) && (k % 5 == 0))
+{
 printf(" FizzBuzz");
-else if (i % 3 == 0)
+}
+else if (k % 3 == 0)
+{
 printf(" Fizz");
-else if (i % 5 == 0)
+}
+else if (k % 5 == 0)
+{
 printf(" Buzz");
+}
 else
-printf(" %d", i);
+{
+printf(" %d", k);
+}
 }
 printf("\n");
-
 return (0);
 }
