@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - make change for any amount of money 
+ * main - make change for any amount of money
  * @argc: Number of command line arguments.
  * @argv: Array of command line arguments.
  * Return: 0.
