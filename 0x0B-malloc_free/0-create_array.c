@@ -15,7 +15,7 @@ unsigned int i;
 if (size == 0)
 return (NULL);
 
-cr = malloc(sizeof(c) * size);
+ar = malloc(sizeof(c) * size);
 
 if (ar == NULL)
 return (NULL);
