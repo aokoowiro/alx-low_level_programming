@@ -54,7 +54,7 @@ if (name == NULL || owner == NULL)
 return (NULL);
 }
 
-snoopie = malloc(sizeof(dog_t));
+benji = malloc(sizeof(dog_t));
 if (benji == NULL)
 {
 return (NULL);
@@ -68,13 +68,13 @@ return (NULL);
 }
 (*benji).name = new_name;
 
-(*snoopie).age = age;
+(*benji).age = age;
 
 new_owner = _copy(owner);
 if (new_owner == NULL)
 {
-free((*snoopie).name);
-free(snoopie);
+free((*benji).name);
+free(benji);
 return (NULL);
 }
 (*benji).owner = new_owner;
