@@ -45,7 +45,7 @@ printf("%d", va_arg(i, int));
   *
   * Return: void
   */
-void print_f(va_list f);
+void print_f(va_list f)
 {
 printf("%f", va_arg(f, double));
 }
@@ -56,7 +56,7 @@ printf("%f", va_arg(f, double));
   *
   * Return: void
   */
-void print_all(const char *const format, ...);
+void print_all(const char *const format, ...)
 {
 unsigned int i, j;
 print_t p[] = {
