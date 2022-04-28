@@ -1,0 +1,4 @@
+abc123
+:set binary
+:set noeol
+:wq!
