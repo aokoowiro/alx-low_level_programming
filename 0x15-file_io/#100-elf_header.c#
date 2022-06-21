@@ -1,0 +1,30 @@
+# CC: The compiler.
+# SRC: All the .c source files.
+# OBJ: All object files.
+# NAME: Name of the output file.
+# CFLAGS: Flags for the compiler
+CC = gcc
+SRC = main.c holberton.c
+  OBJ = $(SRC:.c=.o)
+NAME = holberton
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+  .PHONY: all $(NAME) clean oclean fclean re
+
+  all: $(NAME)
+
+  $(NAME): m.h $(OBJ)
+  # Compile executable file.
+  $(CC) $(OBJ) -o $(NAME)
+
+  clean:
+  # Delete temp files and executable.
+  $(RM) *~ $(NAME)
+
+  oclean:
+  # Delete all object files.
+  $(RM) $(OBJ)
+
+  fclean: oclean clean
+
+  re: fclean all
